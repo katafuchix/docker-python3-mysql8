@@ -26,3 +26,14 @@ OR
 ```
 % brew cask install homebrew/cask-versions/sequel-pro-nightly
 ```
+
+## check log
+```
+% docker container ls  
+% docker logs [CONTAINER ID]
+```
+
+## remove container
+```
+% docker rm --force [CONTAINER ID]
+```
