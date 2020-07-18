@@ -7,6 +7,7 @@ services:
       # MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
     # 永続化
     volumes:
+      - ./docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
       - ./db/mysql_data:/var/lib/mysql
     container_name: 'mysql-8.0'
     ports:
