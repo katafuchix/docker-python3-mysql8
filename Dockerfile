@@ -11,6 +11,6 @@ RUN pip install numpy scipy matplotlib Pillow
 RUN pip install pandas
 RUN pip install mysqlclient mysql-connector-python
 RUN pip install sqlalchemy dataset pymysql
-RUN pip install jupyter
+RUN pip install jupyter ipython-sql
 ADD . /code/
 COPY . /code
