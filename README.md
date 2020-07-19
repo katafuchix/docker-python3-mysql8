@@ -48,3 +48,10 @@ OR
 % make install
 % pip install Ta-Lib
 ```
+
+## jupyter
+```
+% jupyter notebook --port 8000 --ip=0.0.0.0 --allow-root
+
+http://127.0.0.1:8001/?token=xxxxxxxxxxxx ( port exchage )
+```
