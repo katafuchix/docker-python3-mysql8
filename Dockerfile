@@ -8,7 +8,7 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install lxml html5lib beautifulsoup4
 RUN pip install numpy scipy matplotlib Pillow
-RUN pip install pandas
+RUN pip install pandas pandas_datareader
 RUN pip install mysqlclient mysql-connector-python
 RUN pip install sqlalchemy dataset pymysql
 RUN pip install jupyter ipython-sql
