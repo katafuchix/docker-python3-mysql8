@@ -55,3 +55,9 @@ OR
 
 http://127.0.0.1:8001/?token=xxxxxxxxxxxx ( port exchage )
 ```
+
+## Django
+```
+% pip install django
+% python manage.py runserver 0.0.0.0:8000
+```
